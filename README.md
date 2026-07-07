@@ -24,10 +24,11 @@ CI/CD Automation with Github Actions
 
 ## How It Works 
 
-flowchart LR 
-    A[Developer commits code] --> B[GitHub Actions gets triggered]
-    B --> C[Create a Docker image]
-    C --> D[Test in Container]
-    D --> E[Container health check succeeded]
-    E --> F [Ready for deployment]
-    F --> G[Terraform will provision the cloud VM]
+```mermaid
+flowchart LR
+    A[Developer pushes code] --> B[GitHub Actions triggers]
+    B --> C[Builds Docker image]
+    C --> D[Runs tests inside container]
+    D --> E[Container passes health check]
+    E --> F[Ready for deployment]
+    F --> G[Terraform provisions cloud VM]
