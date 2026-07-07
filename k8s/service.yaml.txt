@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: devops-demo-service
+spec:
+  type: LoadBalancer  # Exposes your app to the outside world
+  selector:
+    app: devops-demo
+  ports:
+  - port: 8080
+    targetPort: 8080
+    nodePort: 30080  # Access your app at http://localhost:30080
