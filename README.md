@@ -10,13 +10,15 @@ CI/CD Automation with Github Actions
 
 --- 
 
-## Tech Stack | Tool | Purpose | 
-|------|---------| 
-| **Python + Flask** | Web Application | 
-| **Docker** | Containerization | 
-| **GitHub Actions** | CI/CD Pipeline | 
-| **Terraform** | Infrastructure as Code (IaC) | 
-| **AWS (optional)** | Cloud Deployment |
+##  Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| **Python + Flask** | Simple web application |
+| **Docker** | Containerization for consistency |
+| **GitHub Actions** | CI/CD pipeline automation |
+| **Terraform** | Infrastructure as Code (IaC) |
+| **AWS (optional)** | Cloud deployment target |
 
 --- 
 
